@@ -3,10 +3,18 @@
   "description": "A Livereload plugin for Lineman",
   "version": "0.1.1",
   "homepage": "https://github.com/linemanjs/lineman-livereload",
-  "author": "David Mosher",
+  "author": {
+    "name": "David Mosher"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/linemanjs/lineman-livereload.git"
+    "url": "https://github.com/linemanjs/lineman-livereload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linemanjs/lineman-livereload/issues"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "0.6.0"
   },
   "peerDependencies": {
     "lineman": ">= 0.26.0"
@@ -14,7 +22,7 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-release": "~0.7.0",
-    "grunt-contrib-watch" : "0.6.0"
+    "grunt-contrib-watch": "0.6.0"
   },
   "licenses": [
     {
